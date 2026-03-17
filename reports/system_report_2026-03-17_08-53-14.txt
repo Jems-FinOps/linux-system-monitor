@@ -1,0 +1,56 @@
+===================================
+ Linux System Monitoring Report
+===================================
+
+Hostname:
+jemalu
+
+System Uptime:
+ 08:53:14 up 18:00,  2 users,  load average: 0.01, 0.02, 0.00
+
+CPU Information:
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+CPU family:                              6
+Model:                                   140
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           1.1Gi       373Mi       522Mi       3.2Mi       390Mi       760Mi
+Swap:          2.0Gi        48Mi       2.0Gi
+
+Disk Usage:
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              191M  964K  190M   1% /run
+efivarfs                           128M   35K  128M   1% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv   61G  6.2G   52G  11% /
+tmpfs                              951M     0  951M   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G  199M  1.6G  11% /boot
+/dev/sda1                          1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs                              191M   12K  191M   1% /run/user/1000
+
+Top Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  1.0  22716 11656 ?        Ss   Mar16   0:04 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Mar16   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Mar16   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   Mar16   0:00 [kworker/R-mm_pe]
+
+Logged in Users:
+user     tty1         2026-03-08 09:27
+user     pts/0        2026-03-17 08:00 (172.21.80.1)
+
+Report Generated At:
+Tue Mar 17 08:53:14 AM UTC 2026
